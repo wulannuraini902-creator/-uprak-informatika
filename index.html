@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Sortir Barang</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🎮 Game Sortir Barang</h1>
+  <p>Skor: <span id="score">0</span></p>
+  <p>Waktu: <span id="time">60</span> detik</p>
+
+  <div id="game-area">
+    <div id="item" draggable="true"></div>
+  </div>
+
+  <div class="categories">
+    <div class="box" data-category="buah">🍎 Buah</div>
+    <div class="box" data-category="sayur">🥦 Sayur</div>
+    <div class="box" data-category="elektronik">📱 Elektronik</div>
+  </div>
+
+  <button onclick="startGame()">Mulai Game</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
